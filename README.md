@@ -28,8 +28,10 @@ This repository hosts the **first 7 days of the challenge**. Each day, you’ll 
 
 ```
 /tasks
-  ├── day1.md
-  ├── day2.md
+  ├── Task-1/
+      ├── README.md
+  ├── Task-2/
+      ├── README.md
   └── ...
 /submissions
   └── your_username/

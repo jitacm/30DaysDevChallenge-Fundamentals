@@ -42,9 +42,9 @@ Unlike a standard Caesar cipher, which shifts every letter by the same amount, t
 8. Non-alphabetic characters (like spaces or numbers) are left unchanged.
 
 📘 Example:
-Message: hello
-Key: keyke
-Encrypted: rijvs
+`Message: hello`
+`Key: keyke`
+`Encrypted: rijvs`
 (Using the shifts from 'k', 'e', 'y', 'k', 'e' respectively)
 
 ## 📂 Submission Format

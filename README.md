@@ -62,4 +62,3 @@ Submit your solution, earn points, and keep the streak going!
 
 
 
-Let me know if you'd like to customize this for a specific audience (e.g., students, corporate teams, open-source communities).

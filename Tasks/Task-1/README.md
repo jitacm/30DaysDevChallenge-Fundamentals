@@ -10,13 +10,13 @@ You are given:
 * An **encrypted message**:
 
   ```
-  mrttaqrhknsw ih puggrur
+  cmejink bh abjxbr kuz jmo jbbrtxuaf!
   ```
 
 * A **custom key**:
 
   ```
-  python
+  github
   ```
 
 The encryption used is based on the **Vigenère Cipher** — a classical cipher that encrypts and decrypts messages using a repeated keyword.
@@ -28,7 +28,7 @@ Your task is to:
 
 ## 🧠 How the Vigenère Cipher Works (Decryption)
 
-* Use a keyword (in this case: `python`) to determine how much to shift each letter in the message.
+* Use a keyword (in this case: `github`) to determine how much to shift each letter in the message.
 * Repeat the keyword so it matches the length of the message.
 * For each letter in the message:
 

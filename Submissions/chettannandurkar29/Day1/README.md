@@ -1,4 +1,4 @@
-🔐Vigenere cipher in python
+**🔐Vigenere cipher in python**
 A simple python console program that encrypts and decrypts messages using the vigenere cipher technique
 
 

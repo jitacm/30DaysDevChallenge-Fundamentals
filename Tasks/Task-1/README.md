@@ -10,13 +10,13 @@ You are given:
 * An **encrypted message**:
 
   ```
-  mrttaqrhknsw ih puggrur
+  cmejink bh abjxbr kuz jmo jbbrtxuaf!
   ```
 
 * A **custom key**:
 
   ```
-  python
+  github
   ```
 
 The encryption used is based on the **Vigenère Cipher** — a classical cipher that encrypts and decrypts messages using a repeated keyword.
@@ -26,17 +26,26 @@ Your task is to:
 1. **Implement a function** that can **decrypt the message** using the Vigenère Cipher technique and the key provided.
 2. Submit the **decrypted message** and a brief explanation of how your code works.
 
-## 🧠 How the Vigenère Cipher Works (Decryption)
+🔐 What is the Vigenère Cipher?
+The Vigenère Cipher is a method of encrypting alphabetic text by using a series of Caesar ciphers based on the letters of a keyword.
 
-* Use a keyword (in this case: `python`) to determine how much to shift each letter in the message.
-* Repeat the keyword so it matches the length of the message.
-* For each letter in the message:
+Unlike a standard Caesar cipher, which shifts every letter by the same amount, the Vigenère Cipher shifts each letter of the message by a different amount depending on the corresponding letter in a repeating key.
 
-  * Find its position in the alphabet.
-  * Find the position of the corresponding letter in the keyword.
-  * **Subtract** the keyword letter’s position from the message letter’s position.
-  * Wrap around the alphabet if needed (i.e., modulo 26).
-* Ignore spaces and non-alphabetic characters — just add them as-is to the result.
+🧠 How It Works:
+1. Choose a keyword (e.g., key or hooray).
+2. Repeat the keyword to match the length of the message.
+3. For each letter in the message:
+4. Find its position in the alphabet (0–25).
+5. Find the position of the corresponding letter in the keyword.
+6. Encryption: Add the two positions, then wrap around using modulo 26.
+7. Decryption: Subtract the key letter’s position instead.
+8. Non-alphabetic characters (like spaces or numbers) are left unchanged.
+
+📘 Example:
+`Message: hello`
+`Key: keyke`
+`Encrypted: rijvs`
+(Using the shifts from 'k', 'e', 'y', 'k', 'e' respectively)
 
 ## 📂 Submission Format
 

@@ -40,7 +40,7 @@ Your task is to:
 
 ## 📂 Submission Format
 
-Inside your folder `/submissions/your_username/day1/`, include:
+Inside your folder `/submissions/your_username/Task-1/`, include:
 
 * `solution.txt` or `README.md`
   Containing:

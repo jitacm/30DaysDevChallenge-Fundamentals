@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string caesar(string text , int shift, bool encrypt) {
+string result = "";
+for (char ch : text) {
+if (isalpha(ch)) {
+char base = isupper(ch) ? 'A' : 'a';
+if (encrypt)
+result += (ch - base + shift) %26 + base;
+else
+result += (ch - base - shift + 26) % 26 + base;
+}
+}
+return result;
+}
+
+int main() {
+string text;
+int shift, choice;
+
+cout << "Enter text (letters only): ";
+getline(cin, text);
+
+cout<< "Enter shift number: ";
+cin>> choice;
+
+if (choice == 1)
+cout << "Encrypted: " << caesar(text, shift, true) << endl;
+else if (choice == 2)
+cout << "Decrypted: " << caesar(text, shift, false) << endl;
+else
+cout << "Invalid choice!" <<endl;
+
+return 0;
+}

@@ -4,10 +4,10 @@ A simple Java console program that encrypts and decrypts messages using the Vige
 
 ## 📌 Features
 
-- Encrypt any alphabetic text using a keyword
-- Decrypt an encrypted message using the same keyword
-- Skips non-letter characters during processing
-- Fully case-sensitive (preserves original case)
+- Encrypt any alphabetic text using a keyword.
+- Decrypt an encrypted message using the same keyword.
+- Skips non-letter characters during processing.
+- Fully case-sensitive (preserves original case).
 
 ---
 

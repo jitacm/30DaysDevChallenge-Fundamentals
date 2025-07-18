@@ -4,9 +4,9 @@ A simple Java console program that finds the missing number in an array of disti
 
 ## 📌 Features
 
-- Efficient solution using XOR technique
-- Handles arrays with exactly one missing number
-- Constant space and linear time complexity
+- Efficient solution using XOR technique.
+- Handles arrays with exactly one missing number.
+- Constant space and linear time complexity.
 
 ---
 

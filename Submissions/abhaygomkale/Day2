@@ -1,0 +1,21 @@
+arr=[9, 6, 4, 2, 3, 5, 7, 0, 1]
+siz=len(arr)+1
+x=0
+for i in range(siz):
+    x=x^i
+
+y=0
+for i in arr:
+    y=y^i
+
+missingValue=x^y
+print(missingValue)
+
+Missing Value is 8
+
+As instructed in the explanation, I used the bitwise XOR approach.
+
+1)First, I calculated the length of the array. Since one number is missing, the total count should be len(arr) + 1, which is n.
+2)I found the XOR of all numbers from 0 to n and stored it in x.
+3)Then, I calculated the XOR of all elements in the given array and stored it in y.
+4) the missing number is obtained by x ^ y

@@ -49,7 +49,7 @@ Unlike a standard Caesar cipher, which shifts every letter by the same amount, t
 
 ## 📂 Submission Format
 
-Inside your folder `/submissions/your_username/day1/`, include:
+Inside your folder `/submissions/your_username/Task-1/`, include:
 
 * `solution.txt` or `README.md`
   Containing:
